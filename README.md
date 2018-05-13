@@ -2,7 +2,7 @@ NB: You might find useful the [sample proposal](http://github.com/zamfi/ucb-jaco
 
 # Circuit Twister
 
-One-sentence summary of your project goes here. Then, make sure you have each of these sections completed:
+Circuit Twister is an interactive game, much like Twister, in which players learn about the necessary components for building certain basic circuits (i.e. LED, DC Motor, and Servo circuits). 
 
 ## Team
 
@@ -20,19 +20,15 @@ Include a discussion how it will be interactive or responsive to the environment
 
 ## Component Parts
 
-From what pieces did you build your project?
-
-Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
-
 All of the buttons were created using copper capacitive sensors, each consisting of a layer of foam sandwiched between two copper and wood sheets. When touching, the copper sheets complete a circuit, similar to a switch, and activate an Arduino program. In order to receive feedback from the buttons, we soldered a wire to each copper sheet: one for ground and the other for the digital pin. Additionally, for the digital pin wires, we soldered a 10K resistor and utilized the INPUT_PULLUP function so that Arduino could monitor the state of the button.
+
+Copper Sheets (Input) -> Arduino serial monitor (Data) -> Led turns on (Output)
 
 ## Challenges
 
 A brief discussion of what was hard, challenging, or unexpected about your project.
 
 ## Timeline
-
-What did you do in each of the past five weeks?
 
 - Week 1: Write proposal
 - Week 2a: Receive feedback and re-format project 
