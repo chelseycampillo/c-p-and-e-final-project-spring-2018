@@ -24,6 +24,8 @@ From what pieces did you build your project?
 
 Include what types of inputs/outputs/data it will use, and a block diagram showing how all those pieces are connected.
 
+All of the buttons were created using copper capacitive sensors, each consisting of a layer of foam sandwiched between two copper and wood sheets. When touching, the copper sheets complete a circuit, similar to a switch, and activate an Arduino program. In order to receive feedback from the buttons, we soldered a wire to each copper sheet: one for ground and the other for the digital pin. Additionally, for the digital pin wires, we soldered a 10K resistor and utilized the INPUT_PULLUP function so that Arduino could monitor the state of the button.
+
 ## Challenges
 
 A brief discussion of what was hard, challenging, or unexpected about your project.
