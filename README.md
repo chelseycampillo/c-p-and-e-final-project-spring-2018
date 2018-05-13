@@ -14,9 +14,7 @@ Bennett Shaeffer
 
 ## Summary
 
-Here, write a paragraph or two describing what you built for your final project and what was challenging. 
-
-Include a discussion how it will be interactive or responsive to the environment.
+Gaining inspiration from both the game Twister and this class, we decided to build an electronic version of Twister in order to make circuitry fun to learn. With each challenge, the team of players are to work together in pressing all of the buttons (each representing a specific circuit component) required to complete the challenge. As the game progresses, the challenges become more and more difficult, pushing users to think critically about the best method of completing the challenge. 
 
 ## Component Parts
 
@@ -41,4 +39,5 @@ The most unexpected challenge we faced was gathering all of the data, from the 3
 ## Completed Work, References, and links
 
 Link to Google Drive with Photos and Info Sheet: https://drive.google.com/open?id=1MqDm_zQpY6tGCz2yTiIk67k4bhceQTdw
+
 Link to Arduino Mega code: https://github.com/bennettshaeffer/desinv23/blob/master/twister/mega/Mega_mat_feedback.ino 
