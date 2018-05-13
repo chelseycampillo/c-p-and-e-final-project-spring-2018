@@ -26,7 +26,7 @@ Copper Sheets (Input) -> Arduino serial monitor (Data) -> Led turns on (Output)
 
 ## Challenges
 
-A brief discussion of what was hard, challenging, or unexpected about your project.
+The most unexpected challenge we faced was gathering all of the data, from the 30 buttons we built, in a cohesive manner. Because we initially tried utlizing the resources we already had, specifically the arduinos and featherboards we already owned, we came across a problem in getting all of the arduinos (7 of them) to communicate accurately. After a series of debugging, and trial and error, we ended up purchasing Sparkfun's version of the Arduino Mega, which allowed us to hook up all of the buttons to a single microcontroller. 
 
 ## Timeline
 
@@ -38,12 +38,7 @@ A brief discussion of what was hard, challenging, or unexpected about your proje
 - Week 4: Assemble the vinyl/canvas mat together 
 - Week 5: Present!
 
-## Completed Work
+## Completed Work, References, and links
 
-Photos and videos of your completed final project!
-
-## References and links
-
-**Include a link to your final showcase one-pager here in PDF format.**
-
-Tutorials, comments, videos, magazine articles - anything you found that helps you understand your project.
+Link to Google Drive with Photos and Info Sheet: https://drive.google.com/open?id=1MqDm_zQpY6tGCz2yTiIk67k4bhceQTdw
+Link to Arduino Mega code: https://github.com/bennettshaeffer/desinv23/blob/master/twister/mega/Mega_mat_feedback.ino 
